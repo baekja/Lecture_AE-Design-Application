@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "baekja.github.io/Lecture_AE-Application-Design",
+    baseUrl: "baekja.github.io/Lecture_AE-Design-Application",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
