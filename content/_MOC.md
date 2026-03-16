@@ -31,7 +31,7 @@ aliases:
 
 | 과목 | 역할 |
 |---|---|
-| [[200-Lecture/건축공학프로그래밍/_MOC\|건축공학프로그래밍]] | Python 기초 |
+| 건축공학프로그래밍 | Python 기초 |
 | 건축BIM | BIM 모델링 |
 | 구조역학 / RC | 구조 기본 이론 |
 
@@ -48,27 +48,20 @@ aliases:
 
 ## Syllabus
 
-- [[200-Lecture/건축공학응용설계/00-Syllabus/강의일정_2026-1|강의일정 2026-1]]
-- [[200-Lecture/건축공학응용설계/00-Syllabus/평가전략_2026-1|평가전략 2026-1]]
-- [[200-Lecture/건축공학응용설계/00-Syllabus/프로젝트주제_가이드|프로젝트 주제 가이드]]
+- [[00-Syllabus/강의일정_2026-1|강의일정 2026-1]]
+- [[00-Syllabus/평가전략_2026-1|평가전략 2026-1]]
+- [[00-Syllabus/프로젝트주제_가이드|프로젝트 주제 가이드]]
 
 ---
 
 ## Lecture Notes
 
-```dataview
-TABLE week AS "Week", topic AS "Topic", date AS "Date"
-FROM "200-Lecture/건축공학응용설계/01-Notes"
-WHERE contains(tags, "lecture/응용설계")
-SORT week ASC
-```
+| Week | Topic | Date |
+|------|-------|------|
+| 2 | [[01-Notes/Week_02_기술트렌드|기술 트렌드 + 팀 구성]] | 2026-03-09 |
 
 ---
 
 ## Resources
 
-```dataview
-LIST
-FROM "200-Lecture/건축공학응용설계/02-Resources"
-SORT file.name ASC
-```
+> 추후 업데이트 예정
