@@ -1,0 +1,74 @@
+---
+tags:
+  - lecture/응용설계
+  - "2026-1"
+  - status/active
+aliases:
+  - 건축공학응용설계
+  - 캡스톤디자인
+  - Applied Design
+---
+
+# 건축공학응용설계 (캡스톤디자인)
+
+> [!info] GDrive
+> [강의업무](<file:///D:/GDrive/01. 작업폴더/05. 강의업무>)
+
+---
+
+## 과목 개요
+
+| 항목 | 내용 |
+|---|---|
+| 과목명 | 건축공학응용설계 (캡스톤디자인) |
+| 대상 | 학부 4학년 |
+| 학기 | 2026-1학기 (신규 개설) |
+| 형태 | 팀 프로젝트 (3-5인) |
+| 기간 | 15주 |
+| 목표 | AI + BIM + IT 융합 졸업설계 작품 |
+
+### 선수과목
+
+| 과목 | 역할 |
+|---|---|
+| [[200-Lecture/건축공학프로그래밍/_MOC\|건축공학프로그래밍]] | Python 기초 |
+| 건축BIM | BIM 모델링 |
+| 구조역학 / RC | 구조 기본 이론 |
+
+### 선수과목 차별화
+
+| 구분 | 건축공학프로그래밍 | 건축BIM | LLM-AE-AI(대학원) | **건축공학응용설계** |
+|---|---|---|---|---|
+| 대상 | 학부 2-3학년 | 학부 3학년 | 대학원 | **학부 4학년** |
+| 목표 | Python 기초 | BIM 모델링 | LLM 심화 | **기술 융합 작품** |
+| 형태 | 이론+실습 | 이론+실습 | 워크숍 | **팀 프로젝트** |
+| 산출물 | 코드 과제 | BIM 모델 | AI 시스템 | **졸업설계 작품** |
+
+---
+
+## Syllabus
+
+- [[200-Lecture/건축공학응용설계/00-Syllabus/강의일정_2026-1|강의일정 2026-1]]
+- [[200-Lecture/건축공학응용설계/00-Syllabus/평가전략_2026-1|평가전략 2026-1]]
+- [[200-Lecture/건축공학응용설계/00-Syllabus/프로젝트주제_가이드|프로젝트 주제 가이드]]
+
+---
+
+## Lecture Notes
+
+```dataview
+TABLE week AS "Week", topic AS "Topic", date AS "Date"
+FROM "200-Lecture/건축공학응용설계/01-Notes"
+WHERE contains(tags, "lecture/응용설계")
+SORT week ASC
+```
+
+---
+
+## Resources
+
+```dataview
+LIST
+FROM "200-Lecture/건축공학응용설계/02-Resources"
+SORT file.name ASC
+```
